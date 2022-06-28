@@ -8,4 +8,8 @@
 
 team1 = Team.create(name: 'Penguins')
 team2 = Team.create(name: 'Capitals')
-team2 = Team.create(name: 'Coyotes')
+team3 = Team.create(name: 'Coyotes')
+
+player1 = Player.create(name: 'Crosby', team: team1)
+player2 = Player.create(name: 'Ovechkin', team: team2)
+player3 = Player.create(name: 'Doan', team: team3)
