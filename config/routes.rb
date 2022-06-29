@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   # Players
   resources :players, only: [:index, :show, :create, :update, :destroy]
+
   # Coaches
+  resources :coaches, only: [:index, :show, :create, :update, :destroy]
 
   # Games
 
